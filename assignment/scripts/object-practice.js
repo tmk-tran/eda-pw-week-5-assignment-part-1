@@ -63,7 +63,7 @@ console.log( me.favThreeFoods[lastFoodItem] );
 console.log( 'I currently have ' + me.shoeCount + ' shoes.' );  // logging my current number of shoes
 me.shoeCount ++;  // adding a new pair, yippee!
 
-console.log( 'Now, I have ' + me.shoeCount + ' shoes...let\'s get some more!' );  // logging the new amount of shoes
+console.log( 'Now, I have ' + me.shoeCount + ' shoes...feelin\' fresh!' );  // logging the new amount of shoes
 
 
 /* 5. Add a new property to an existing object.

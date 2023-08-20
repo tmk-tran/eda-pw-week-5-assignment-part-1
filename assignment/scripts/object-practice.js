@@ -75,6 +75,6 @@ console.log( 'Now, I have ' + me.shoeCount + ' pairs of shoes...feelin\' fresh!'
 
 
 me.favoriteColor = 'Black';  // adding a new value to the existing object using dot notation
-console.log( 'Added \'favorite color\' to object. Favorite color is: ', me.favoriteColor );
+console.log( 'Added \'favorite color\' to object. Favorite color is: ' + me.favoriteColor );
 console.log( 'The updated object now contains: ', me );  // logging the new object
 

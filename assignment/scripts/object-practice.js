@@ -39,17 +39,17 @@ console.log( fullName );
 */
 
 
-console.log( me.favThreeFoods[0] );  //  this is one way to console.log my first favorite food
+console.log( 'Example 1 of log, first favorite food item: ' + me.favThreeFoods[0] );  //  this is one way to console.log my first favorite food
 
 let firstFoodItem = me.favThreeFoods[0];
-console.log( firstFoodItem );  //  this is another way to console.log my first favorite food item
+console.log( 'Example 2 of log, first favorite food item: ' + firstFoodItem );  //  this is another way to console.log my first favorite food item
 
 
-console.log( me.favThreeFoods[2] );  // example 1 of logging my last favorite food
+console.log( 'Example 1 of log, last favorite food item: ' + me.favThreeFoods[2] );  // example 1 of logging my last favorite food
 
 // example 2 of how to log my last favorite food:
 let lastFoodItem = me.favThreeFoods.length - 1;  //  defining a variable and setting it to the last item in my array
-console.log( me.favThreeFoods[lastFoodItem] );
+console.log( 'Example 2 of log, last favorite food item: ' + me.favThreeFoods[lastFoodItem] );
 
 
 /* 4. Change a property of an existing object.

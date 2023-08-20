@@ -60,10 +60,10 @@ console.log( me.favThreeFoods[lastFoodItem] );
 */
 
 
-console.log( 'I currently have ' + me.shoeCount + ' shoes.' );  // logging my current number of shoes
+console.log( 'I currently have ' + me.shoeCount + ' pairs of shoes.' );  // logging my current number of shoes
 me.shoeCount ++;  // adding a new pair, yippee!
 
-console.log( 'Now, I have ' + me.shoeCount + ' shoes...feelin\' fresh!' );  // logging the new amount of shoes
+console.log( 'Now, I have ' + me.shoeCount + ' pairs of shoes...feelin\' fresh!' );  // logging the new amount of shoes
 
 
 /* 5. Add a new property to an existing object.
@@ -75,4 +75,6 @@ console.log( 'Now, I have ' + me.shoeCount + ' shoes...feelin\' fresh!' );  // l
 
 
 me.favoriteColor = 'Black';  // adding a new value to the existing object using dot notation
-console.log( me );  // logging the new object
+console.log( 'Added \'favorite color\' to object. Favorite color is: ', me.favoriteColor );
+console.log( 'The updated object now contains: ', me );  // logging the new object
+
